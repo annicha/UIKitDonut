@@ -1,4 +1,4 @@
 # UIKitDonut
 Sample donut chart view made from UIKit's UIBeizierPath
 
-![Screenshot](annicha.github.com/UIKitDonut/img/screenshot.png)
+![Screenshot](https://github.com/annicha/UIKitDonut/blob/master/img/screenshot.png?raw=true)
