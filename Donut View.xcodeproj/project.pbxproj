@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		97C70C972427CB130041B48B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C70C962427CB130041B48B /* AppDelegate.swift */; };
 		97C70C992427CB130041B48B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C70C982427CB130041B48B /* SceneDelegate.swift */; };
-		97C70C9B2427CB130041B48B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C70C9A2427CB130041B48B /* ViewController.swift */; };
 		97C70C9E2427CB130041B48B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C70C9C2427CB130041B48B /* Main.storyboard */; };
 		97C70CA02427CB170041B48B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C70C9F2427CB170041B48B /* Assets.xcassets */; };
 		97C70CA32427CB170041B48B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C70CA12427CB170041B48B /* LaunchScreen.storyboard */; };
+		97C70CAB2427DB070041B48B /* DonutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C70CAA2427DB070041B48B /* DonutView.swift */; };
+		97C70CAE242B17FE0041B48B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C70CAC242B17370041B48B /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		97C70C932427CB130041B48B /* JustACircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustACircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97C70C932427CB130041B48B /* Donut View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Donut View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C70C962427CB130041B48B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97C70C982427CB130041B48B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		97C70C9A2427CB130041B48B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		97C70C9D2427CB130041B48B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97C70C9F2427CB170041B48B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C70CA22427CB170041B48B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C70CA42427CB170041B48B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97C70CAA2427DB070041B48B /* DonutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutView.swift; sourceTree = "<group>"; };
+		97C70CAC242B17370041B48B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,7 @@
 		97C70C8A2427CB130041B48B = {
 			isa = PBXGroup;
 			children = (
-				97C70C952427CB130041B48B /* JustACircle */,
+				97C70C952427CB130041B48B /* Donut View */,
 				97C70C942427CB130041B48B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +50,32 @@
 		97C70C942427CB130041B48B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				97C70C932427CB130041B48B /* JustACircle.app */,
+				97C70C932427CB130041B48B /* Donut View.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		97C70C952427CB130041B48B /* JustACircle */ = {
+		97C70C952427CB130041B48B /* Donut View */ = {
 			isa = PBXGroup;
 			children = (
 				97C70C962427CB130041B48B /* AppDelegate.swift */,
+				97C70CAC242B17370041B48B /* ViewController.swift */,
 				97C70C982427CB130041B48B /* SceneDelegate.swift */,
-				97C70C9A2427CB130041B48B /* ViewController.swift */,
 				97C70C9C2427CB130041B48B /* Main.storyboard */,
+				97C70CAA2427DB070041B48B /* DonutView.swift */,
 				97C70C9F2427CB170041B48B /* Assets.xcassets */,
 				97C70CA12427CB170041B48B /* LaunchScreen.storyboard */,
 				97C70CA42427CB170041B48B /* Info.plist */,
 			);
-			path = JustACircle;
+			path = "Donut View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		97C70C922427CB130041B48B /* JustACircle */ = {
+		97C70C922427CB130041B48B /* Donut View */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97C70CA72427CB170041B48B /* Build configuration list for PBXNativeTarget "JustACircle" */;
+			buildConfigurationList = 97C70CA72427CB170041B48B /* Build configuration list for PBXNativeTarget "Donut View" */;
 			buildPhases = (
 				97C70C8F2427CB130041B48B /* Sources */,
 				97C70C902427CB130041B48B /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = JustACircle;
+			name = "Donut View";
 			productName = JustACircle;
-			productReference = 97C70C932427CB130041B48B /* JustACircle.app */;
+			productReference = 97C70C932427CB130041B48B /* Donut View.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 97C70C8E2427CB130041B48B /* Build configuration list for PBXProject "JustACircle" */;
+			buildConfigurationList = 97C70C8E2427CB130041B48B /* Build configuration list for PBXProject "Donut View" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				97C70C922427CB130041B48B /* JustACircle */,
+				97C70C922427CB130041B48B /* Donut View */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97C70C9B2427CB130041B48B /* ViewController.swift in Sources */,
+				97C70CAE242B17FE0041B48B /* ViewController.swift in Sources */,
+				97C70CAB2427DB070041B48B /* DonutView.swift in Sources */,
 				97C70C972427CB130041B48B /* AppDelegate.swift in Sources */,
 				97C70C992427CB130041B48B /* SceneDelegate.swift in Sources */,
 			);
@@ -285,13 +289,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JustACircle/Info.plist;
+				INFOPLIST_FILE = "Donut View/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anne-hanw.JustACircle";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anne-hanw.DonutView";
+				PRODUCT_NAME = "Donut View";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,13 +306,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JustACircle/Info.plist;
+				INFOPLIST_FILE = "Donut View/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anne-hanw.JustACircle";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anne-hanw.DonutView";
+				PRODUCT_NAME = "Donut View";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		97C70C8E2427CB130041B48B /* Build configuration list for PBXProject "JustACircle" */ = {
+		97C70C8E2427CB130041B48B /* Build configuration list for PBXProject "Donut View" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97C70CA52427CB170041B48B /* Debug */,
@@ -326,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97C70CA72427CB170041B48B /* Build configuration list for PBXNativeTarget "JustACircle" */ = {
+		97C70CA72427CB170041B48B /* Build configuration list for PBXNativeTarget "Donut View" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97C70CA82427CB170041B48B /* Debug */,

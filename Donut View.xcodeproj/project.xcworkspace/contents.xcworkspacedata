@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:JustACircle.xcodeproj">
+      location = "self:/Users/anne/Local/JustACircle/Donut View.xcodeproj">
    </FileRef>
 </Workspace>
